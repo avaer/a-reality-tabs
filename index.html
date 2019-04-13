@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>content on controller</title>
+    <meta name="description" content="content on controller">
+    <script src="aframe.js"></script>
+    <!-- Include yoga layout for scroll pane layouts after aframe -->
+<!--     <script src="https://unpkg.com/aframe-material-collection/dist/aframe-yoga-layout.min.js"></script> -->
+    <!-- Include aframe-material-collection after aframe and yoga layout-->
+<!--     <script src="https://unpkg.com/aframe-material-collection/dist/aframe-material-collection.min.js"></script> -->
+<!--     <script src="aframe-material.js"></script> -->
+    <script src="menu-item.js"></script>
+  </head>
+  <body>
+    <a-scene iframes>
+      <a-entity vive-controls="hand: right" laser-controls="hand: right" raycaster="objects: .links;">
+          
+       </a-entity>
+      <a-entity vive-controls="hand: left">
+        <menu-item id="world1" class="links" src="https://cdn.glitch.com/c333092a-7bf1-4071-a486-b9b5014a8bc7%2FScreen%20Shot%202019-04-11%20at%204.25.17%20AM.png?1554981975000" position=".1 .1 .1" scale=".001 .001 .001" rotation="-90 0 0"></menu-item>
+        <menu-item id="world2" class="links" src="https://cdn.glitch.com/c333092a-7bf1-4071-a486-b9b5014a8bc7%2FScreen%20Shot%202019-04-11%20at%204.24.55%20AM.png?1554981974870" position=".1 .1 .46" scale=".001 .001 .001" rotation="-90 0 0"></menu-item>
+        <menu-item id="apainter" class="links" src="https://raw.githubusercontent.com/aframevr/a-painter/master/img/icon-128.png" position=".2 .1 .28" scale=".001 .001 .001" rotation="-90 0 0"></menu-item>
+        <menu-item id="ashooter" class="links" src="https://cdn.glitch.com/c333092a-7bf1-4071-a486-b9b5014a8bc7%2F43233052-499cf788-9074-11e8-98bb-3823e30ef13d.jpg?1554981642594" position=".0 .1 .28" scale=".001 .001 .001" rotation="-90 0 0"></menu-item>
+      </a-entity>
+    </a-scene>
+    <script src="interaction.js"></script>
+  </body>
+</html>
