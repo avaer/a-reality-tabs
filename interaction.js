@@ -32,13 +32,14 @@ document.querySelector('#world1').addEventListener('mousedown',()=>{
   _openTab('https://flint-waitress.glitch.me/');
 });
 
-setTimeout(() => {
+// un-comment to auto-load
+/* setTimeout(() => {
   _openTab('https://flint-waitress.glitch.me/');
 
   setTimeout(() => {
     _openTab('https://absorbed-football-1.glitch.me/');
   }, 5000);
-}, 5000);
+}, 5000); */
 
 document.querySelector('#world2').addEventListener('mousedown',()=>{
   _openTab('https://fortune-cucumber.glitch.me/');
